@@ -32,4 +32,4 @@ According to the equation 1 <br>
 
 The measured length of the central leg is 3 cm.<br>
 Thus, the estimated length of the central leg found to be very close to the actual length.<br> 
-This way, Rutherford estimated the size of the nucleus of gold-atom from the -particle backscattering experiment. <br>
+This way, Rutherford estimated the size of the nucleus of gold-atom from the α-particle backscattering experiment. <br>
