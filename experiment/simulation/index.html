@@ -1,13 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rutherford Scattering Simulation</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-		<!-- Your code goes here-->
+  <div class="container">
+    <div class="header">Rutherford Scattering Simulation</div>
+    <div class="experiment-area">
+      <div class="display-area">
+        <canvas id="simulationCanvas"></canvas>
+        <div id="tableOverlay" class="image-overlay">
+          <img src="table2.png" alt="Table" />
+        </div>
+        <div id="particlesOverlay" class="image-overlay">
+          <img src="glass marvel.png" alt="Particles" />
+        </div>
+      </div>
+      <div class="controls">
+        <button class="table-btn" onclick="addTable()" id="addTableBtn">
+          Add Table
+        </button>
+        <button class="particle-btn" onclick="showParticlesOverlay()" id="addParticlesBtn" disabled>
+          Add Particles
+        </button>
+        <button class="speed-btn" onclick="setSpeed()" id="speedBtn" disabled>Set Speed</button>
+        <button class="start" onclick="startSimulation()" id="startBtn" disabled>Start Simulation</button>
+        <button class="reset" onclick="resetSimulation()">Reset</button>
+      </div>
+    </div>
+    <div class="message-box" id="message">>> Simulator Ready</div>
+    <div class="message-box" id="particleStats">Scattered: 0 | Straight: 0</div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
-</html>
+    <div class="table_container">
+       <div class="table">
+        <table id="trialTable">
+          <thead>
+            <tr>
+              <th>Trial</th>
+              <th>Throws</th>
+              <th>Backscattered</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Trial 1</td><td>203</td><td>14</td></tr>
+            <tr><td>Trial 2</td><td>311</td><td>16</td></tr>
+            <tr><td>Trial 3</td><td>250</td><td>8</td></tr>
+            <tr><td>Trial 4</td><td>289</td><td>20</td></tr>
+            <tr><td>Trial 5</td><td>298</td><td>10</td></tr>
+            <tr><td>Trial 6</td><td>213</td><td>14</td></tr>
+            <tr><td>Trial 7</td><td>250</td><td>22</td></tr>
+            <tr><td>Trial 8</td><td>250</td><td>12</td></tr>
+            <tr><td>Total</td><td>2064</td><td>116</td></tr>
+          </tbody>
+        </table>
+       </div>
+    <div class="table">
+      <div class="custom-trial-section">
+        <h3 style="text-align: center; color: #5a6872;">Custom Trial Input</h3>
+        <div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
+        <div>
+        <label for="numParticles">Number of Particles:</label>
+        <input type="number" id="numParticles" min="1" max="10000" value="100" style="width: 100px; padding: 5px;">
+        </div>
+        <button onclick="calculateCustomTrial()" style="background: #5a6872; color: white; padding: 5px 15px; border-radius: 5px; border: none; cursor: pointer;">
+        Calculate
+        </button>
+        </div>
+        <table id="customTrialTable" style="width: 70%; margin: 20px auto; border-collapse: collapse;">
+        <thead>
+        <tr>
+        <th>Total Particles</th>
+        <th>Expected Scattered</th>
+       
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td id="totalParticles">-</td>
+        <td id="expectedScattered">-</td>
+       
+        </tr>
+        </tbody>
+        </table>
+        </div>
+    </div>
+  </div>
+   
+  </div>
+
+  <div id="finalResultPopup" class="popup">
+    <h2>Final Result</h2>
+    <p id="finalResultText"></p>
+    <button onclick="closePopup()">Close</button>
+  </div>
+<script src="main.js"></script>
+    </body>
+    </html>
