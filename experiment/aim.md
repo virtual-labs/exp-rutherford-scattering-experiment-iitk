@@ -1,1 +1,3 @@
-To simulate Rutherford backscattering experiment and to determine the size of a small portion inside a large space.
+To simulate Rutherford backscattering experiment and find the size of nuclei from scattering probability
+
+<!--To simulate Rutherford backscattering experiment and to determine the size of a small portion inside a large space.

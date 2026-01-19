@@ -4,7 +4,9 @@ Ernest Rutherford got the idea that the structure of atoms could be probed by ob
 
 At this point Rutherford (1911) advanced the hypothesis that the positive charge and most of the mass of an atom is concentrated in a “nucleus” with dimensions of the order of 10<sup>−12</sup> cm (10,000 times smaller than the atom as a whole) with the electrons in some sort of configuration around it.<br>
 
-In this experiment, we will model Rutherford’s experiment with glass marvels and will estimate the size of the nucleus (leg of the model table). A model of gold atom will be prepared as shown in Fig. 1. As in the case of gold, most of the parts are occupied by electron (free space in the model). Several (~2000) marvels will be thrown to the model and the number of back scattered ball will be counted. From this the probability of backscattering will be calculated as,<br>
+In this experiment, we will model Rutherford’s experiment with glass marvels and will estimate the size of the nucleus (leg of the model table). 
+<!-- A model of gold atom will be prepared as shown in Fig. 1.--> 
+As in the case of gold, most of the parts are occupied by electron (free space in the model). Several (~2000) marvels will be thrown to the model and the number of back scattered ball will be counted. From this the probability of backscattering will be calculated as,<br>
 
 <img src="images/image_1.png"><br>
 
