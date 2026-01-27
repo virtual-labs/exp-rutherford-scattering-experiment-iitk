@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rutherford Scattering Simulation</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <div class="container">
@@ -13,10 +13,10 @@
       <div class="display-area">
         <canvas id="simulationCanvas"></canvas>
         <div id="tableOverlay" class="image-overlay">
-          <img src="table2.png" alt="Table" />
+          <img src="images/table2.png" alt="Table" />
         </div>
         <div id="particlesOverlay" class="image-overlay">
-          <img src="glass marvel.png" alt="Particles" />
+          <img src="images/glass marvel.png" alt="Particles" />
         </div>
       </div>
       <div class="controls">
@@ -72,20 +72,20 @@
         <table id="customTrialTable" style="width: 70%; margin: 20px auto; border-collapse: collapse;">
         <thead>
         <tr>
-        <th>Total Particles</th>
-        <th>Expected Scattered</th>
-       
+        <th>Trials</th>
+        <th>Total partical</th>
+        <th>Backscattered</th>
+        <th>Straight</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-        <td id="totalParticles">-</td>
-        <td id="expectedScattered">-</td>
-       
+        <td id="totalParticles"></td>
+        <td id="expectedScattered"></td>
         </tr>
         </tbody>
         </table>
-        </div>
+      </div>
     </div>
   </div>
    
@@ -96,6 +96,7 @@
     <p id="finalResultText"></p>
     <button onclick="closePopup()">Close</button>
   </div>
-<script src="main.js"></script>
-    </body>
+<script src="js/main.js"></script>
+
+</body>
     </html>
