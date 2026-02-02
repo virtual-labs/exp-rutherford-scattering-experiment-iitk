@@ -42,6 +42,41 @@
       gap: 10px;
       align-items: center;
     }
+.instructions-panel {
+  margin-top: 10px;
+  background: #f2f6f9;
+  border: 2px solid #5a6872;
+  border-radius: 8px;
+  padding: 10px;
+  height: 140px;          /* fixed box height */
+  overflow-y: auto;      /* enables scrolling */
+  font-size: 14px;
+}
+
+.instructions-panel h3 {
+  text-align: center;
+  margin-bottom: 8px;
+  color: #5a6872;
+}
+
+.instructions-panel ol {
+  padding-left: 18px;
+}
+
+.instructions-panel li {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 768px) {
+  .instructions-panel {
+    height: 160px;
+    font-size: 13px;
+  }
+}
+
+
+
+
     button {
       padding: 10px;
       font-size: 14px;
@@ -189,3 +224,4 @@
     font-size: 12px;
   }
 }
+
