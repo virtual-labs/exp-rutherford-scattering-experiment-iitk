@@ -1,0 +1,14 @@
+
+/home/runner/work/exp-rutherford-scattering-experiment-iitk/exp-rutherford-scattering-experiment-iitk/experiment/simulation/js/main.js
+   25:5   warning  'scatteredCount' is assigned a value but never used  no-unused-vars
+   26:5   warning  'straightCount' is assigned a value but never used   no-unused-vars
+  225:10  warning  'setSpeed' is defined but never used                 no-unused-vars
+  257:10  warning  'calculateCustomTrial' is defined but never used     no-unused-vars
+  352:10  warning  'addTable' is defined but never used                 no-unused-vars
+  361:10  warning  'showParticlesOverlay' is defined but never used     no-unused-vars
+
+/home/runner/work/exp-rutherford-scattering-experiment-iitk/exp-rutherford-scattering-experiment-iitk/experiment/simulation/main.js
+  217:12  error  Parsing error: Identifier 'updateParticleStats' has already been declared
+
+✖ 7 problems (1 error, 6 warnings)
+

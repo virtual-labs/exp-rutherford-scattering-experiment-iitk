@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Why was gold used in Rutherford’s experiment?",
+      "answers": {
+        "a": "Gold particles are radioactive",
+        "b": "Gold can be hammered into very thin sheets",
+        "c": "Gold is highly conducting material",
+        "d": "Gold is highly reactive material"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The large deflection of some alpha particles indicates the",
+      "answers": {
+        "a": "presence of a dense and positively charged nucleus",
+        "b": "atom is a solid sphere",
+        "c": "presence of a dense and negatively charged electron cluster",
+        "d": "presence of neutrons in the atom"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following was NOT a conclusion of Rutherford’s gold foil experiment?",
+      "answers": {
+        "a": "The nucleus is dense and positively charged",
+        "b": "The nucleus consists of proton and neutron  ",
+        "c": "Atoms mostly have empty space",
+        "d": "The nucleus contains most of the atom's mass"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "An alpha particle deflected back toward the source implies that the alpha particle",
+      "answers": {
+        "a": "collides with an electron",
+        "b": "is repelled by the nucleus",
+        "c": "passes through a dense region of negative charge",
+        "d": "undergoes radioactive decay"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Rutherford’s experiment can be performed with",
+      "answers": {
+        "a": "thin silver foil in static condition",
+        "b": "thick platinum foil in static condition",
+        "c": "gold foil with any thickness",
+        "d": "thin silver foil in motion"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
