@@ -1,3 +1,15 @@
+<b>Procedure in Simulation :</b><br>
+1. Click Add Table to place the gold foil.<br>
+2. Then click Add Particles (Alpha Particles).<br>
+3. Select a trial (1–8) or press C for custom trials.<br>
+4. For custom trial, enter particles and click Calculate.<br>
+5. Click Set Speed to randomize particle speed.<br>
+6. Finally click Start Simulation.<br>
+7. Blue dots go straight.<br>
+8. Red dots are scattered.<br>
+9. Press Reset to reset anytime.<br><br>
+
+<b>Procedure in laboratory :</b><br>
 <b>Apparatus :</b><br>
 •	Glass marbles<br>
 •	A table with four legs at four corner and one at the center.<br>
