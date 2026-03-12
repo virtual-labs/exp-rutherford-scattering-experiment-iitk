@@ -42,41 +42,6 @@
       gap: 10px;
       align-items: center;
     }
-.instructions-panel {
-  margin-top: 10px;
-  background: #f2f6f9;
-  border: 2px solid #5a6872;
-  border-radius: 8px;
-  padding: 10px;
-  height: 140px;          /* fixed box height */
-  overflow-y: auto;      /* enables scrolling */
-  font-size: 14px;
-}
-
-.instructions-panel h3 {
-  text-align: center;
-  margin-bottom: 8px;
-  color: #5a6872;
-}
-
-.instructions-panel ol {
-  padding-left: 18px;
-}
-
-.instructions-panel li {
-  margin-bottom: 6px;
-}
-
-@media (max-width: 768px) {
-  .instructions-panel {
-    height: 160px;
-    font-size: 13px;
-  }
-}
-
-
-
-
     button {
       padding: 10px;
       font-size: 14px;
@@ -168,60 +133,3 @@
     margin: 10px;
     width: 50%;
 }
-
-
-
-@media screen and (max-width: 768px) {
-  .experiment-area {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .display-area,
-  .controls {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .controls {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  button {
-    width: 45%;
-    margin: 5px 0;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  .table_container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .table {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .header {
-    font-size: 16px;
-    padding: 8px;
-  }
-
-  button {
-    font-size: 12px;
-    padding: 8px;
-  }
-
-  .input-box {
-    font-size: 12px;
-  }
-}
-

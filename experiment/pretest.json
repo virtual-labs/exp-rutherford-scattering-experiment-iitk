@@ -2,37 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The purpose of Rutherford's gold foil experiment was",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "to discover electrons",
+        "b": "to test the plum pudding model of an atom ",
+        "c": "to measure the charge of an electron",
+        "d": "to study radioactive decay"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Before Rutherford experiment, it was believed that in an atom the electrons",
+      "answers": {
+        "a": "rotate in elliptical orbit ",
+        "b": "rotate in circular orbit ",
+        "c": "are embedded in positively charged sphere",
+        "d": "are embedded in negatively charged sphere"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The particle used in Rutherford's experiment was",
+      "answers": {
+        "a": "neutrons ",
+        "b": "beta particles ",
+        "c": "alpha particles",
+        "d": "gamma rays "
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The charge and mass of a alpha particle are, respectively,",
+      "answers": {
+        "a": "+2, 4",
+        "b": "+4, 2",
+        "c": "+2, 2",
+        "d": "+4, 4"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "The force responsible for deflection of alpha particle is ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "gravitational force",
+        "b": "London dispersion force",
+        "c": "Van der Waal’s force",
+        "d": "electrostatic force"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
